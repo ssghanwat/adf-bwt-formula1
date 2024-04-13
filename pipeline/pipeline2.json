@@ -12,7 +12,8 @@
 						"value": "@pipeline().parameters.pipe_param_store_race_result_op",
 						"type": "Expression"
 					},
-					"batchCount": 25,
+					"isSequential": false,
+					"batchCount": 3,
 					"activities": [
 						{
 							"name": "Copy data1",

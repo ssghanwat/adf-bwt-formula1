@@ -127,7 +127,7 @@
 						"type": "Expression"
 					},
 					"isSequential": false,
-					"batchCount": 25,
+					"batchCount": 3,
 					"activities": [
 						{
 							"name": "Copy data2",
@@ -259,7 +259,8 @@
 										"ds_param_directory_path": "@concat('Bronze/race/',string(utcnow('yyyyMMdd')))",
 										"ds_param_file_name": "@concat(item().season,'_races')"
 									}
-								}
+								},
+								"firstRowOnly": false
 							}
 						}
 					]
