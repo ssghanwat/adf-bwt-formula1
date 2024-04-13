@@ -16,7 +16,7 @@
 			"location": {
 				"type": "HttpServerLocation",
 				"relativeUrl": {
-					"value": "@dataset().relative_url",
+					"value": "@dataset().ds_param_relative_url",
 					"type": "Expression"
 				}
 			}
